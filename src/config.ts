@@ -72,9 +72,9 @@ skills: [
       title: "Product Manager",
       dateRange: "May 2021 – November 2022",
       bullets: [
-        "Drove over $500K in annual revenue by building and managing a B2B developer platform with well-documented APIs that enabled 20+ research institutions to build on standardized robotics hardware.",
+        "Drove annual revenue by building and managing a B2B developer platform with well-documented APIs that enabled 20+ research institutions to build on standardized robotics hardware.",
         "Achieved product-market fit with over 20+ active customers by creating technical documentation and developer support for researcher-led AI controller development.",
-        "Secured $1.6M in SBIR funding for exoskeleton development spanning Army and Air Force use cases through successful DoD stakeholder engagement.",
+        "Secured SBIR funding for exoskeleton development spanning Army and Air Force use cases through successful DoD stakeholder engagement.",
       ],
     },
     {
