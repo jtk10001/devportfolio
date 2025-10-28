@@ -1,92 +1,114 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Jon Kaplan",
+  title: "Product & Technical Leader | Autonomous Systems, Robotics, & AI",
+  description:
+    "Portfolio of Jon Kaplan, a product and technical leader with experience building mission-critical AI, robotics, and data platforms at Wing (Google) and high-growth startups.",
+  profileImage: "/profile.jpg", // Path to your profile image in the public directory
+  accentColor: "#060607ff",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "JKaplan621@gmail.com",
+    linkedin: "https://linkedin.com/in/jonathankaplan",
+    // The resume lists jon-kaplan.com, which is likely this portfolio.
+    // A GitHub profile can be added here if available.
+    // github: "https://github.com/yourusername",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
+aboutMe:
+    "My passion is being the technical translator between complex user needs and engineering teams. I thrive in high-stakes, regulated environments—like autonomous aviation and defense—where the margin for error is zero. My product philosophy is built on: \n1. System-Level Thinking: I don't just manage features. I lead product for complex, interconnected systems of hardware, software, and human operations. \n2. Enabling AI with Humans: My expertise is in the 'human-in-the-loop' systems that make AI safe, efficient, and scalable in the real world. \n3. First-Principles Problem Solving: From my engineering roots, I dig deep into the 'why' to find the root cause, whether it's in a data pipeline, an operational bottleneck, or a user workflow.",
+skills: [
+  {
+    category: "Product Strategy & Leadership",
+    items: [
+      "AI/ML Product Roadmapping",
+      "Autonomous Systems Product Mgmt",
+      "Cross-Functional Team Leadership",
+      "PM Mentorship & Development",
+    ],
+  },
+  {
+    category: "Technical & AI Enablement",
+    items: [
+      "AI-Driven Decision Systems",
+      "Human-in-the-Loop (HITL) Interfaces",
+      "Predictive AI Modeling",
+      "Python, SQL, MATLAB",
+    ],
+  },
+  {
+    category: "Platform & GTM",
+    items: [
+      "External & Partner-Facing APIs",
+      "Developer Platform Creation",
+      "Data Governance & Security",
+      "Data Pipeline & Quality Management",
+    ],
+  },
+  {
+    category: "Regulatory & Compliance",
+    items: [
+      "Aviation Regulatory Compliance (FAA, EASA, CASA)",
+      "Defense (DoD) & SBIR Contracts",
+      "Safety-Critical Systems",
+    ],
+  },
+],
+  // The resume lists patents and publications but not specific software projects.
+  // Leaving this array empty will hide the "Projects" section on the site.
+  projects: [],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Wing (An Alphabet Company)",
+      title: "Product Manager II (L5)",
+      dateRange: "November 2022 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Own and execute the product vision for Wing's next-generation ground software platform, enabling thousands of daily autonomous flights.",
+        "Engineered and executed a multi-year, globally compliant teleoperations roadmap that resulted in a 50% reduction in operator costs per delivery, a key enabler for scaling the business.",
+        "Lead a cross-functional team of 10+ engineers, 3 PMs (including mentoring rotational/contract PMs), and UX designers through rapid, safety-critical launch cycles.",
+        "Scaled the operations platform to 30+ sites, supporting Fortune 500 partners like Walmart and DoorDash, with a clear roadmap for 100+ sites in 2026.",
+        "Owned the product strategy for regulatory compliance, successfully securing approvals from global aviation regulators (FAA, EASA, CASA) for autonomous operations.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Dephy, Inc.",
+      title: "Product Manager",
+      dateRange: "May 2021 – November 2022",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Drove over $500K in annual revenue by building and managing a B2B developer platform with well-documented APIs that enabled 20+ research institutions to build on standardized robotics hardware.",
+        "Achieved product-market fit with over 20+ active customers by creating technical documentation and developer support for researcher-led AI controller development.",
+        "Secured $1.6M in SBIR funding for exoskeleton development spanning Army and Air Force use cases through successful DoD stakeholder engagement.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Dephy, Inc.",
+      title: "Software Engineer",
+      dateRange: "March 2020 – April 2021",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Developed an embedded AI model that achieved 99% accuracy in real-time human running gait detection for a bilateral exoskeleton.",
+        "Awarded two U.S. patents for innovating real-time feedback control and ML-driven exoskeleton optimization.",
+        "Reduced developer data processing time by 90% by creating standardized data analysis tools in Python/MATLAB.",
+      ],
+    },
+    {
+      company: "U.S. Army - Natick Soldier Systems Center",
+      title: "Research Engineer",
+      dateRange: "June 2015 – February 2020",
+      bullets: [
+        "Led development of predictive AI models for CT scan automation, successfully forecasting knee injury likelihood with high accuracy in a defense-relevant application.",
+        "Secured over $400K in research grants, directing a multi-year computational biomechanics research roadmap.",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      school: "University of Connecticut",
+      degree: "M.S., Biomedical Engineering",
+      dateRange: "", // Dates not specified on resume
+      achievements: [],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      school: "University of Connecticut",
+      degree: "B.S., Biomedical Engineering",
+      dateRange: "", // Dates not specified on resume
+      achievements: [],
     },
   ],
 };
