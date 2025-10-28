@@ -9,4 +9,9 @@ export default defineConfig({
 
   // Set 'site' to your custom domain
   site: 'https://jon-kaplan.com',
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
+
 });
