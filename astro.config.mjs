@@ -4,7 +4,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  vite: {
-    plugins: [tailwindcss()],
-  },
+  // Set 'output' to 'static' for GitHub Pages
+  output: 'static', 
+
+  // Set 'site' to your custom domain
+  site: 'https://jon-kaplan.com',
 });
